@@ -59,15 +59,49 @@ nav a {
   color: purple
 }
 
+article {
+  float: left;
+  width: 60%;
+  margin: 15px;
+}
+
 .testimonial {
   font-style: italic;
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: column;
   float: right;
+  margin-top: 0;
+  margin-right: 5px;
   width: 30%;
   border: solid;
+  text-align: center;
 }
 
+.sidebar img {
+  align-self: center;
+  width: 40%;
+}
+
+.bar-text {
+  padding: .5rem;
+  margin: 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  padding-top: 20px;
+}
+
+footer h4 {
+  padding: 2px;
+  margin: 1px;
+  margin-left: 15px;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+}
