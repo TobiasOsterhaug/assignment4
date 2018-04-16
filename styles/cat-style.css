@@ -10,7 +10,6 @@ a {
 
 header {
   background-color: black;
-  margin: 0;
 }
 
 header h1 {
@@ -23,7 +22,8 @@ header h2 {
   color: darkgray;
   padding-bottom: 1rem;
   margin-left: 2rem;
-  margin-top: .2rem    
+  margin-top: .2rem;
+  margin-bottom: 0;
 }
 
 header h4 {
@@ -35,23 +35,39 @@ header h4 {
 
 nav {
   background-color: darkgray;
-  display: inline-flex;
-  flex-direction: row;
+  text-align: center;
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin: 0;
 }
 
-nav ul {
-  list-style: none;
-  display: inline-flex;
+.nav-table {
+  display: table;
+  margin: 0;
 }
 
 nav li {
-  padding-top: 2rem;
-  padding-right: 20%;
-  padding-left: 20%;
-  text-align: center
+  display: inline;
+  font-size: 1.5rem;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: 0;
 }
 
 nav a {
   color: purple
 }
+
+.testimonial {
+  font-style: italic;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 30%;
+  border: solid;
+}
+
