@@ -7,3 +7,27 @@ html { font-size: 16px; }
 a {
   color: red
 }
+
+header {
+  background-color: black;
+}
+
+header h1 {
+  color: white;
+  margin-left: 2rem;
+  margin-bottom: .2em
+}
+
+header h2 {
+  color: darkgray;
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+  margin-top: .2rem    
+}
+
+header h4 {
+  text-align: right;
+  padding-top: 1rem;
+  margin-top: 0;
+  margin-right: 2rem;
+}
